@@ -2,6 +2,7 @@
 百度地图定位工具类
 
 使用方法
+
 LocationUtil.init(MainActivity.this);
         LocationUtil.getLocation(new LocationUtil.LocationListener() {
             @Override
