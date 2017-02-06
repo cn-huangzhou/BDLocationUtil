@@ -1,9 +1,10 @@
 # BDLocationUtil
 百度地图定位工具类
 
-使用方法
+### 使用方法
 
-LocationUtil.init(MainActivity.this);
+首先初始化：LocationUtil.init(MainActivity.this);
+
         LocationUtil.getLocation(new LocationUtil.LocationListener() {
             @Override
             public void onGetLocationStart() {
